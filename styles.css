@@ -1,0 +1,43 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#fortune{
+    width: 50%;
+    height: 100px;  
+    text-align: center;
+    justify-content: space-evenly;
+    line-height: 100px;
+}
+
+button{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+}
+
+h2{
+    margin-top: 15px;
+}
